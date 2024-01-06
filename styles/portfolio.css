@@ -1,8 +1,20 @@
+/* common styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* nav related styles */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 150px;
+}
+
+nav h1 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .text-primary {
@@ -38,4 +50,22 @@ nav a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* header related styles */
+.header {
+  background-color: #FFF8F3;
+
+}
+
+.banner {
+  display: flex;
+  padding: 50px 50px 50px 150px;
+  align-items: center;
+
+}
+
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
