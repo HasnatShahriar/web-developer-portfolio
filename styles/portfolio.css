@@ -2,6 +2,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 
 /* nav related styles */
 nav {
@@ -97,6 +111,9 @@ nav a {
 }
 
 /* main style */
+main section{
+  margin-top: 130px;
+}
 /* about me part style */
 .about {
   border-radius: 10px;
@@ -107,19 +124,6 @@ nav a {
 
 }
 
-.section-title {
-  color: #181818;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.section-description {
-  color: #757575;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-}
 
 .about-info-container {
   display: flex;
@@ -140,7 +144,7 @@ nav a {
   line-height: 30px;
 }
 
-/* what i do(skils) related styles */
+/* what i do(skills) related styles */
 #what-i-do-description {
   padding: 5px 350px;
 }
@@ -170,4 +174,42 @@ nav a {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
+}
+/* Resume related styles */
+.resume-container{
+display: flex;
+padding-left: 300px;
+padding-right: 250px;
+gap: 25px;
+}
+.resume-column{
+
+}
+.resume-column-title{
+  color:  #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-column-department{
+  color:  #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-column-institute{
+  color:  #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-column-description{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.cv-download{
+  text-align: center;
+  margin-top: 50px;
 }
